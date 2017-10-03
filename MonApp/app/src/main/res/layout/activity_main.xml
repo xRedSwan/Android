@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marti.monapp.activities.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:text="Login"
+        android:gravity="center"
+
+        />
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:inputType="textAutoComplete|textCapWords"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:text="Password"
+        android:gravity="center"
+
+
+        />
+    <EditText
+        android:id="@+id/user_passwd"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.165"
+            android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.66"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_go"
+        android:onClick="goCheck"
+        android:gravity="center"
+        />
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.165"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

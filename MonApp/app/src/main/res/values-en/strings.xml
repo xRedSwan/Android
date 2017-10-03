@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Play Together</string>
+    <string name="btn_go">Go</string>
+    <string name="succes">Success !</string>
+    <string name="dames">Checkers</string>
+    <string name="sudoku">Sudoku</string>
+    <string name="puissance4">Power 4</string>
+    <string name="chevaux">Horses</string>
+    <string name="bataillenavale">BattleShips</string>
+    <string name="echecs">Chess</string>
+
+</resources>
